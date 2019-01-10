@@ -1,13 +1,13 @@
 Clone repositories hosted on GitHub to buckets in Oracle Cloud Infrastructure Object Storage
 
-#Required packages:
+# Required packages:
 Python 3
 Pipenv
 
-#Recommended packages:
+# Recommended packages:
 OCI CLI
 
-#Install steps:
+# Install steps:
 
 Run `git clone https://github.com/rosalexander/oci-git.git`
 
@@ -17,7 +17,7 @@ Run `pipenv install`
 
 Run `pipenv shell`
 
-#Commands:
+# Commands:
 ```
 python3 oci-git.py git clone <username> <repo_name>
      Clones the GitHub repository under the username and creates a bucket in the compartment OCID on file
