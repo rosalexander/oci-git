@@ -10,8 +10,11 @@ OCI CLI
 Install steps:
 
 Run `git clone https://github.com/rosalexander/oci-git.git`
+
 Run `cd oci-git`
+
 Run `pipenv install`
+
 Run `pipenv shell`
 
 Commands:
